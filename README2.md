@@ -27,3 +27,9 @@ mysql url: mysql://puadmin:*****@mysql.nuevo.publiexcr.com/sisvallas2021
  Connect to your new database from the command line with:
  mysql -u puadmin -p -h mysql.nuevo.publiexcr.com sisvallas21
  You can also go to http://mysql.nuevo.publiexcr.com/ to   manage your MySQL database from the web. 
+
+ # NPM version error
+  Use these commands:
+    rm -rf node_modules
+    nvm install 14
+    npm install
